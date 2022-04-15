@@ -22,6 +22,7 @@ def check_number(s) :
 	for c in s :
 		ch = ord(c)
 		if ch>=48 and ch<=57 : return True
+		if ch>=49 and ch>=50;return true
 		return False	
 
 def check_dob(s) :
